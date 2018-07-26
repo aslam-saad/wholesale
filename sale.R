@@ -12,9 +12,9 @@ sale.data <- read.csv("data/Wholesale customers data.csv")
 sale.data$Channel <- as.factor(sale.data$Channel)
 sale.data$Channel <- fct_recode(sale.data$Channel, Horeca = "1", Retail = "2")
 
-#sale.data$Region <- as.factor(sale.data$Region)
-#sale.data$Region <- fct_recode(sale.data$Region, Lisbon = "1", Oporto = "2", Other = "3")
-#sale.data$Region <- NULL
+sale.data$Region <- as.factor(sale.data$Region)
+sale.data$Region <- fct_recode(sale.data$Region, Lisbon = "1", Oporto = "2", Other = "3")
+sale.data$Region <- NULL
 
 ##Split to train and test sets
 set.seed(75)
