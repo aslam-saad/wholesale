@@ -1,4 +1,4 @@
-To which clients should we sale in retail channels?
+To which clients should we sell in retail channels?
 ==================================================
 
 Data Description:
