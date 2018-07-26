@@ -34,15 +34,15 @@ Analysis and Exploring:
 
 The logistic regression model showed that the relation between RETAIL Channels and DETERGENTS & PAPER, and GROCERY categories is highly positively significant, while it’s not significant with the other product categories.
 
-*we should focus on selling these two categories via retail, Instead of focusing on all product categories.*
+**we should focus on selling these two categories via retail, Instead of focusing on all product categories.**
 
 To check this conclusion: these two categories were used, instead of using all product categories, to rebuild the logistic regression model. This model has been used to predict the channel type of a new sample of clients.
 
 ![](figures/plotting-1.png)
 
-The previous figure shows how well the model performs. The dark green area represents the annual spending values on GROCERY and DETERGENT & PAPER products at which the model classified new clients as RETAIL clients, while at the dark red area the model classified clients as HORECA clients. The green and the red points represent the actual classification of RETAIL and HORECA clients respectively. As we see, it’s a high accurata classification.
+The previous figure shows how well the model performs. The dark green area represents the annual spending values on GROCERY and DETERGENT & PAPER products at which the model classified new clients as RETAIL clients, while at the dark red area the model classified clients as HORECA clients. The green and the red points represent the actual classification of RETAIL and HORECA clients respectively. As we see, that’s high accurate classification.
 
-*One could ask: Is it more profitable to depend on the the model than randomly sell to all clients via retail?*
+**One could ask: Is it more profitable to depend on the the model than randomly sell to all clients via retail?**
 
 confusion matrix shows that the model accurately predicted 32 out of 35 retail clients(the green sell) and 72 out of 74 horeca clients(white cell). On the other hand, inaccurately predicted 3 retail clients as horeca clients, and 2 horeca clients as retail clients(red cells).
 
