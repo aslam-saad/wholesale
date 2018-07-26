@@ -38,7 +38,7 @@ The logistic regression model showed that the relation between RETAIL Channels a
 
 To check this conclusion: these two categories were used, instead of using all product categories, to rebuild the logistic regression model. This model has been used to predict the channel type of a new sample of clients.
 
-![](wholesale_files/figures/plotting-1.png)
+![](figures/plotting-1.png)
 
 The previous figure shows how well the model performs. The dark green area represents the annual spending values on GROCERY and DETERGENT & PAPER products at which the model classified new clients as RETAIL clients, while at the dark red area the model classified clients as HORECA clients. The green and the red points represent the actual classification of RETAIL and HORECA clients respectively. As we see, it’s a high accurata classification.
 
