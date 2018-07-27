@@ -22,7 +22,6 @@ Data Description:
 
 -   REGION: customersale Region - Lisnon, Oporto or Other (Nominal)
 
-
 Objective:
 ----------
 
@@ -57,7 +56,7 @@ As shown in the last two rows of the table, the average profit of selling to a c
 
 *Profit = $10 (32) -$1 (2) -$11 (3) = $285*
 
-Randomly selling to all clients via retail means we successfully sell to the all 35 retail clients with a profit of $10, but unsuccessfully sell to the all 74 horeca clients with a cost of $0.5.
+Randomly selling to all clients via retail means we successfully sell to the all 35 retail clients with a profit of $10, but unsuccessfully sell to the all 74 horeca clients with a cost of $1.
 
 *Profit = $10 (34) -$1 (74) = $266*
 
