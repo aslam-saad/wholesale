@@ -43,7 +43,7 @@ The previous figure shows how well the model performs. The dark green area repre
 
 **One could ask: Is it more profitable to depend on the the model than randomly sell to all clients via retail?**
 
-confusion matrix shows that the model accurately predicted 32 out of 35 retail clients(the green sell) and 72 out of 74 horeca clients(white cell). On the other hand, inaccurately predicted 3 retail clients as horeca clients, and 2 horeca clients as retail clients(red cells).
+confusion matrix shows that the model accurately predicted 32 out of 35 retail clients and 72 out of 74 horeca clients. On the other hand, inaccurately predicted 3 retail clients as horeca clients, and 2 horeca clients as retail clients.
 
 | Predicted | RETAIL | HORECA |
 |:----------|:-------|:-------|
