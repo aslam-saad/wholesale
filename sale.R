@@ -7,7 +7,7 @@ font_import() #download fonts this take few mnuites
 loadfonts(device = "win") #load fonts to use in R
 
 
-##Import data
+##Import dn process data
 sale.data <- read.csv("data/Wholesale customers data.csv")
 sale.data$Channel <- as.factor(sale.data$Channel)
 sale.data$Channel <- fct_recode(sale.data$Channel, Horeca = "1", Retail = "2")
