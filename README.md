@@ -41,7 +41,7 @@ To check this conclusion: these two categories were used, instead of using all p
 
 The previous figure shows how well the model performs. The dark green area represents the annual spending values on GROCERY and DETERGENT & PAPER products at which the model classified new clients as RETAIL clients, while at the dark red area the model classified clients as HORECA clients. The green and the red points represent the actual classification of RETAIL and HORECA clients respectively. As we see, that’s high accurate classification.
 
-**One could ask: Is it more profitable to depend on the the model than randomly sell to all clients via retail?**
+**So, is it more profitable to depend on the the model than randomly sell to all clients via retail?**
 
 confusion matrix shows that the model accurately predicted 32 out of 35 retail clients and 72 out of 74 horeca clients. On the other hand, inaccurately predicted 3 retail clients as horeca clients, and 2 horeca clients as retail clients.
 
@@ -49,16 +49,16 @@ confusion matrix shows that the model accurately predicted 32 out of 35 retail c
 |:----------|:-------|:-------|
 | RETAIL    | 32     | 2      |
 | HORECA    | 3      | 72     |
-| RETAIL    | +$10   | -$1    |
-| HORECA    | -$11   | -      |
+| RETAIL    | +$15   | -$3    |
+| HORECA    | -$18   | -      |
 
-As shown in the last two rows of the table, the average profit of selling to a client is $11, but there’s a $1 cost for using the retail channel. As a result, the profit of an accurate decision is $10. In addition to losses of $1 for using retail channel without actually selling, and $11 for ignoring possible retail client. 
+As shown in the last two rows of the table, the average profit of selling to a client is $18, but there’s a $3 cost for using the retail channel. As a result, the profit of an accurate decision is $15. In addition to losses of $3 for using retail channel without actually selling, and $18 for ignoring possible retail client. 
 
-*Profit = $10 (32) -$1 (2) -$11 (3) = $285*
+*Profit = $15 (32) -$3 (2) -$18 (3) = $420*
 
-Randomly selling to all clients via retail means we successfully sell to the all 35 retail clients with a profit of $10, but unsuccessfully sell to the all 74 horeca clients with a cost of $1.
+Randomly selling to all clients via retail means we successfully sell to the all 35 retail clients with a profit of $15, but unsuccessfully sell to the all 74 horeca clients with a cost of $3.
 
-*Profit = $10 (34) -$1 (74) = $266*
+*Profit = $15 (34) -$3 (74) = $288*
 
 
 Conclusion:
